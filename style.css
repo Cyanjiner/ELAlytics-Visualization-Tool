@@ -1,0 +1,11 @@
+#canvas {
+    width: 800px;
+    height: 600px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.word {
+    position: absolute;
+    cursor: move;
+}

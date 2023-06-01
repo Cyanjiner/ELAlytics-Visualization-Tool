@@ -1,10 +1,3 @@
-viewof data = Drawer({
-    height: 500,
-    width,
-    xSamples: width / 60,
-    yLabel: "Plot Intensity"
-})
-
 function Drawer({
     marginTop = 20, // top margin, in pixels
     marginRight = 30, // right margin, in pixels
@@ -108,3 +101,17 @@ function Drawer({
   
     return svg.node();
   }
+
+  // document.addEventListener("DOMContentLoaded", function() {
+  //   // Call the function with desired parameters
+  //   const myDrawer = Drawer({
+  //       height: 500,
+  //       width: 800,
+  //       xSamples: 40,
+  //       yLabel: "My Y Label"
+  //   });
+  
+  //   // Append the returned SVG element to the DOM
+  //   document.body.appendChild(myDrawer);
+  // });
+
